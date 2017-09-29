@@ -41,24 +41,17 @@
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">SSL port</stringProp>
           </elementProp>
-        </collectionProp>
-      </Arguments>
-      <hashTree/>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-        <collectionProp name="Arguments.arguments">
-          <elementProp name="userPrefix" elementType="Argument">
-            <stringProp name="Argument.name">userPrefix</stringProp>
-            <stringProp name="Argument.value">scim1user</stringProp>
-            <stringProp name="Argument.desc">Server hostname or ip</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
           <elementProp name="OAuthToken" elementType="Argument">
             <stringProp name="Argument.name">OAuthToken</stringProp>
-            <stringProp name="Argument.value">ad9918c0-8597-34d6-866b-9f4ad88648b7</stringProp>
+            <stringProp name="Argument.value">2d361bc9-f445-30d0-834b-9aaabb66dd89</stringProp>
             <stringProp name="Argument.desc">Give an oauth token generated with infinite expiry time</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
       </Arguments>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
@@ -82,7 +75,7 @@
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">userID</stringProp>
-          <stringProp name="CounterConfig.format">${userPrefix}</stringProp>
+          <stringProp name="CounterConfig.format">scim1u100_</stringProp>
           <boolProp name="CounterConfig.per_user">false</boolProp>
         </CounterConfig>
         <hashTree/>
@@ -378,7 +371,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">/home/ubuntu/scripts/results/200_25_9_scimaddgetupdate.jtl</stringProp>
+        <stringProp name="filename">/home/ubuntu/scripts/results/200_28_9_scimaddgetupdate.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
